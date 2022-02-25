@@ -1,0 +1,37 @@
+body{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family:sans-serif;
+}
+
+#Y{
+    background-color: yellow;
+}
+
+#R{
+    background-color: red;
+}
+
+#B{
+    background-color: brown;
+}
+
+.make-color{
+    background-color: blueviolet;
+}
+
+p{
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    font-weight: 600;
+    font-size:3em;
+}
+
+ul{
+ line-height: 30px;
+ text-align: center;
+ font-style: italic;   
+}
