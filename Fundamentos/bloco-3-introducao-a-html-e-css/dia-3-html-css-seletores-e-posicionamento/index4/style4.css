@@ -1,0 +1,55 @@
+ol{
+    background-color: yellow;
+}
+.text{
+    text-transform:uppercase;
+}
+
+.green{
+    color: green;
+}
+
+.header{
+    color: red;
+}
+
+.font{
+    font-size: 40px;
+    border:black solid 1px;
+}
+
+li{
+    font-size: 20px;
+
+}
+
+li em{
+    font-weight: bold;
+}
+
+.color{
+    color: blue;
+}
+
+.background{
+    background-color: pink;
+}
+
+.laranja:hover{
+    background-color: orange ;
+}
+
+.verde:hover{
+    background-color: green;
+}
+.preta:hover{
+    background-color: black;
+}
+
+.amarela:hover{
+    background-color: yellow;
+}
+
+.verdetrybe:hover{
+    background-color: rgb(33, 185, 96);
+}
