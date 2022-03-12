@@ -1,26 +1,20 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //imprimir todos os valores de numbers
 for(let index = 0; index < numbers.length; index += 1) {
-    console.log(typeof numbers[index])
+    console.log(numbers[index])
 }
 
 //imprimir soma dos valores
-for(let soma of numbers) {
-    soma += 1;
-    console.log(soma);
-}
+let result = numbers.reduce((result, valores) => result + valores);
+    console.log(result)
 
 //imprimir média aritimética
-let soma = 0;
-
-for(let index = 0; index < numbers.length; index += 1) {
-    soma += numbers[index] / numbers.length;
-    console.log(soma)
+let soma = numbers.reduce((soma, valores) => soma + valores);
+    console.log(soma/2)
 if(soma > 20){
     console.log('valor maior que 20');
 }else{
     console.log('valor menor ou igual a 20');
-}
 }
 
 //imprimir maior valor contido no array
@@ -32,7 +26,12 @@ for(let maior of numbers) {
 
 //quantidade de numeros impares
 for(let index = 0; index < numbers.length; index += 1) {
-   console.log(numbers[index] % 2 !== 0);
+   let impares = numbers[index] % 2 !== 0;
+if(impares === true) {
+    console.log(impares)
+}else{
+    console.log('Nenhum valor ímpar encontrado!')
+}
 }
 
 //imprimir menor numero
@@ -48,3 +47,4 @@ for(let i = 0; i < numberss.length; i += 1){
     divisao = numberss[i] / 2;
     console.log(divisao);
 }
+
