@@ -192,3 +192,25 @@ let diasDaSemana = {
 player['fullName'] = player.name + ' ' + player.lastName;
 player['bestInTheWorld'] = [2006, 2007, 2008, 2009, 2010, 2018];
   console.log('A jogadora ' + player.fullName + ' possui ' + player.medals['golden'] + ' medalhas de ouro, ' + player.medals['silver'] + ' medalhas de prata e ' + player.medals['bronze'] + ' de bronze')
+
+  //
+  let names = {
+    person1: 'João',
+    person2: 'Maria',
+    person3: 'Jorge',
+  };
+
+  for(let keys in names){
+    console.log('Olá, ' + names[keys])
+  }
+  //
+
+  let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
+  };
+
+  for(let keys in car){
+      console.log(keys + ' : ' + car[keys])
+  }

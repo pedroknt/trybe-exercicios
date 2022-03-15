@@ -16,6 +16,7 @@ if(soma > 20){
 }else{
     console.log('valor menor ou igual a 20');
 }
+//
 
 //imprimir maior valor contido no array
 
@@ -37,8 +38,8 @@ if(impares === true) {
 //imprimir menor numero
 for(let menor of numbers) {
     menor = Math.min(...numbers);
-    console.log(menor);
 }
+console.log(menor);
 
 //divisão
 let numberss = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25];
@@ -48,3 +49,7 @@ for(let i = 0; i < numberss.length; i += 1){
     console.log(divisao);
 }
 
+let n = 10;
+n.array.forEach(element => {
+    
+});
